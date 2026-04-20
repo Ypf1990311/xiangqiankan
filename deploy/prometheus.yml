@@ -1,0 +1,8 @@
+global:
+  scrape_interval: 1s # 高频量化需要极高频抓取，1秒1次
+  evaluation_interval: 5s
+
+scrape_configs:
+  - job_name: 'alphahft_engine'
+    static_configs:
+      - targets: ['host.docker.internal:2112'] # 穿透Docker抓取 Windows 母机上的 2112 端口

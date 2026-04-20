@@ -1,0 +1,12 @@
+exchange:
+  api_key: "qgEllBsjgzi2i6093miyNs1T8U0xQX0ZaqeLeh5BPrcqXBYsLMso2qegeH6tGqoL"
+  secret: "MsyqUW1YrTG4TGA1yNg5zWoREq9elL3S2nolWpBjnUuCyUIpcENuJUZH8XYakbYu"
+  testnet: false
+  paper_trade: false
+
+symbols:
+  - "BNBUSDC"
+
+notify:
+  telegram_token: "YOUR_TG_TOKEN"
+  telegram_chat_id: "YOUR_TG_CHAT_ID"
